@@ -180,5 +180,5 @@ def display():
 
 
 app.secret_key = os.urandom(12)
-app.run(port=5978, host='0.0.0.0', debug=True)
+app.run( host='0.0.0.0', debug=False)
 
